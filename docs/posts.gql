@@ -1,0 +1,31 @@
+// query getAllPosts {
+//     getAllPosts {
+//       title
+//       content
+//       updatedAt
+//       featuredImage
+//     }
+//   }
+  
+//   mutation create_Posts {
+//     createNewPost(newPost:{
+//       title: "new One",
+//       content: "Yaa its working"
+//     }){
+//       title
+//       content
+//       createdAt
+//     }
+//   }
+  
+//   mutation create_Posts($title:String!,$content:String!,$featuredImage:String) {
+//     createNewPost(newPost:{
+//       title: $title
+//       content: $content
+//       featuredImage: $featuredImage
+//     }){
+//       title
+//       content
+//       createdAt
+//     }
+//   }
